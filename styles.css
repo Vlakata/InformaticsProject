@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 32px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+	background-color:#D6EAFF;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #CCC9FF;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 192px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.hero {
+
+
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.infohero{
+
+	background-image: url(images/back1.jpg);
+
+
+}
+
+h1 {
+	font-size: 57px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	 text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 23px;
+}
+
+h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 35px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.button {
+	border: 2px #FFFFFF solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.info-box-tan {
+	background-image: url(images/rene2.jpg);
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+
+.info-box-dark {
+	background-image: url(images/ss2.jpg);
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 40px;
+		margin-bottom: 90px;
+	}
+	
+	h2 {
+		margin-bottom: 16px;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+
+	.homebutton{
+		font-size: 16px;
+		font-weight: 400;
+	
+		color: white;
+	}
+
+	.artists{
+	
+		margin: auto;
+	}
+
+	.artistpic{
+		width: 25%;
+	}
+
+	#dalipic{
+		float: left;
+		margin-right: 30px;
+	}
+
+	#renepic{
+		float: right;
+		margin-left: 30px;
+	}
+
+	#bretonpic{
+		float: left;
+		margin-right: 30px;
+	}
+
+	#daliinfo{
+
+		text-align: left;
+		margin-bottom: 270px;
+	}
+
+	#reneinfo{
+		
+		text-align: right;
+		margin-bottom: 320px;
+	}
+
+	#andreinfo{
+
+		text-align: left;
+		margin-bottom: 100px;
+	}
+
+	#artisthero{
+		background-image: url(images/rene2.jpg);
+	}
+
+	#artworksc{
+		background-image: url(images/ss2.jpg);
+	}
+
+	#phc{
+		background-image: url(images/sp5.jpg);
+	}
+
+
+}
+
